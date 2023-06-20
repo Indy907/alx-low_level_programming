@@ -8,15 +8,13 @@
 
 int main(void)
 {
-	char c;
+char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	c = 'a';
-	while
-		(c <= 'z') {
-			if ((c != 'q' && c != 'e') && c <= 'z')
-				putchar(c);
-			c++;
-		}
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
 	putchar('\n');
 	return (0);
 }
