@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Determines the last digit of a randomly generated number and whethe
-r it is greater than 5, less than 6 or 0.
+ * main - Determines the last digit of a randomly generated number 
  *
  * Return: Always 0 (Success)
  */
@@ -27,3 +26,4 @@ int main(void)
 		printf("last digit of %d is %d and is 0\n", n, n % 10);
 	}
 return (0);
+}
