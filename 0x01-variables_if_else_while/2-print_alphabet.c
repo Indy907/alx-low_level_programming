@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char c;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	c = 'a';
 	while
